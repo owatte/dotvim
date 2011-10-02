@@ -4,3 +4,6 @@
 [submodule "bundle/python"]
 	path = bundle/python
 	url = https://github.com/gg/python.vim.git
+[submodule "bundle/pylint-mode"]
+	path = bundle/pylint-mode
+	url = https://github.com/klen/pylint-mode.git
