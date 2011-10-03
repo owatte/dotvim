@@ -27,5 +27,6 @@ set cindent
 set cinoptions=:s,ps,ts,cs
 set cinwords=if,else,while,do,for,switch,case"
 
-
+" Sudo write
+comm! W exec 'w !sudo tee % > /dev/null' | e!
 filetype plugin indent on
